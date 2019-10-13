@@ -14,20 +14,20 @@ class HomeController extends Controller
     {
         return $content
             ->title('Dashboard')
-            ->description('Description...')
-            ->row(Dashboard::title())
+            ->description('内容完善中')
+            ->row(Dashboard::title()) //
             ->row(function (Row $row) {
 
                 $row->column(4, function (Column $column) {
-                    $column->append(Dashboard::environment());
+                    $column->append(Dashboard::environment());//
                 });
 
                 $row->column(4, function (Column $column) {
-                    $column->append(Dashboard::extensions());
+                    $column->append(Dashboard::extensions());//
                 });
 
                 $row->column(4, function (Column $column) {
-                    $column->append(Dashboard::dependencies());
+                    $column->append(Dashboard::dependencies());//
                 });
             });
     }

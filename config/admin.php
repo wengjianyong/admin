@@ -11,7 +11,7 @@ return [
     | login page.
     |
     */
-    'name' => 'Laravel-admin',
+    'name' => env('APP_NAME', 'Laravel-Admin'),
 
     /*
     |--------------------------------------------------------------------------
@@ -22,7 +22,7 @@ return [
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<b>Laravel</b> admin',
+    'logo' => '<b>知者衡行</b> Go',
 
     /*
     |--------------------------------------------------------------------------
@@ -34,7 +34,7 @@ return [
     | '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo-mini' => '<b>La</b>',
+    'logo-mini' => '<b>知衡</b>',
 
     /*
     |--------------------------------------------------------------------------
@@ -310,7 +310,7 @@ return [
     | each page
     |
     */
-    'show_version' => true,
+    'show_version' => false,
 
     /*
     |--------------------------------------------------------------------------
@@ -320,7 +320,7 @@ return [
     | Whether to display the environment at the footer of each page
     |
     */
-    'show_environment' => true,
+    'show_environment' => false,
 
     /*
     |--------------------------------------------------------------------------
